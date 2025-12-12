@@ -21,8 +21,8 @@ function Header() {
           <div className="container header-container">
             <div className="header-left">
               <div className="logo-wrapper">
-                <img src={logoImg} alt="Solvertech Africa Studio" className="logo-img" />
-                <span className="studio-name">Solvertech Africa Studio</span>
+                <img src={logoImg} alt="Nirvana Studios" className="logo-img" />
+                <span className="studio-name">Nirvana Studios</span>
               </div>
             </div>
 
@@ -41,9 +41,9 @@ function Header() {
 function HomePage() {
   const apps = [
     {
-      name: 'Fake Call & Prank Chat',
+      name: 'Budget Planner: Personal Budget',
       image: bannerApp,
-      link: 'https://play.google.com/store/apps/details?id=com.prankcall.videocallandchat.celebrity.idol.prankvideo'
+      link: 'https://play.google.com/store/apps/details?id=com.expense.smartmoney.fintech.moneycontrol'
     }
   ];
 
@@ -52,8 +52,8 @@ function HomePage() {
       <section id="about" className="section about">
         <div className="container about-row">
           <div className="about-text-container">
-            <h2 className="highlight-title">Solvertech Africa Studio – Welcome Aboard</h2>
-            <p className="about-text">Solvertech Africa Studio is a forward-thinking mobile app studio committed to crafting innovative, dependable, and easy-to-use applications. Our mission is to blend creativity with functionality, delivering solutions that span across casual gaming, productivity, lifestyle, and education. Each app we develop is carefully designed with user experience in mind — offering intuitive navigation, thoughtful details, and practical value — to make everyday life simpler, smarter, and more enjoyable for users around the globe.
+            <h2 className="highlight-title">Nirvana Studios – Welcome Aboard</h2>
+            <p className="about-text">Nirvana Studios is a forward-thinking mobile app studio committed to crafting innovative, dependable, and easy-to-use applications. Our mission is to blend creativity with functionality, delivering solutions that span across casual gaming, productivity, lifestyle, and education. Each app we develop is carefully designed with user experience in mind — offering intuitive navigation, thoughtful details, and practical value — to make everyday life simpler, smarter, and more enjoyable for users around the globe.
             </p>
           </div>
           <div className="about-img-container">
@@ -87,7 +87,7 @@ function HomePage() {
           <h2>Contact Us</h2>
           <p>
             If you have any questions about this Privacy Policy, request support, please contact us at:<br />
-            <a href="mailto: henricsanyu@gmail.com"> henricsanyu@gmail.com</a><br />
+            <a href="mailto: nirvana.apps.studio@gmail.com"> nirvana.apps.studio@gmail.com</a><br />
             <span style={{ display: 'inline-block', marginTop: '10px' }}>
               🏠 ADROP.AI LIMITED
                 Flat 1
@@ -113,7 +113,7 @@ function App() {
         </Routes>
         <footer className="footer">
           <div className="container text-center">
-            <p>&copy; {new Date().getFullYear()} Solvertech Africa Studio. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Nirvana Studios. All rights reserved.</p>
           </div>
         </footer>
       </div>
